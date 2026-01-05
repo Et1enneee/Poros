@@ -1,0 +1,193 @@
+{
+  "summary": {
+    "totalChecks": 20,
+    "passedChecks": 18,
+    "failedChecks": 2,
+    "passRate": 90,
+    "quality": "良好"
+  },
+  "results": [
+    {
+      "name": "前端文件 - App.tsx",
+      "passed": true,
+      "details": "33行代码",
+      "timestamp": "2026-01-05T18:07:07.762Z",
+      "category": "前端"
+    },
+    {
+      "name": "前端文件 - pages/Dashboard.tsx",
+      "passed": true,
+      "details": "452行代码",
+      "timestamp": "2026-01-05T18:07:07.765Z",
+      "category": "前端"
+    },
+    {
+      "name": "前端文件 - pages/CommunicationManagement.tsx",
+      "passed": true,
+      "details": "231行代码",
+      "timestamp": "2026-01-05T18:07:07.769Z",
+      "category": "前端"
+    },
+    {
+      "name": "前端文件 - components/Layout.tsx",
+      "passed": true,
+      "details": "165行代码",
+      "timestamp": "2026-01-05T18:07:07.772Z",
+      "category": "前端"
+    },
+    {
+      "name": "components/Layout.tsx - Header",
+      "passed": false,
+      "details": "关键特性缺失",
+      "timestamp": "2026-01-05T18:07:07.772Z",
+      "category": "其他"
+    },
+    {
+      "name": "components/Layout.tsx - Navigation",
+      "passed": false,
+      "details": "关键特性缺失",
+      "timestamp": "2026-01-05T18:07:07.772Z",
+      "category": "其他"
+    },
+    {
+      "name": "前端目录 - components/communications/",
+      "passed": true,
+      "details": "包含4个文件",
+      "timestamp": "2026-01-05T18:07:07.774Z",
+      "category": "前端"
+    },
+    {
+      "name": "前端目录 - components/ui/",
+      "passed": true,
+      "details": "包含12个文件",
+      "timestamp": "2026-01-05T18:07:07.776Z",
+      "category": "前端"
+    },
+    {
+      "name": "后端文件 - server.js",
+      "passed": true,
+      "details": "200行代码",
+      "timestamp": "2026-01-05T18:07:07.779Z",
+      "category": "后端"
+    },
+    {
+      "name": "后端文件 - routes/communications.js",
+      "passed": true,
+      "details": "642行代码",
+      "timestamp": "2026-01-05T18:07:07.781Z",
+      "category": "后端"
+    },
+    {
+      "name": "后端文件 - routes/customers.js",
+      "passed": true,
+      "details": "575行代码",
+      "timestamp": "2026-01-05T18:07:07.783Z",
+      "category": "后端"
+    },
+    {
+      "name": "后端文件 - routes/market.js",
+      "passed": true,
+      "details": "593行代码",
+      "timestamp": "2026-01-05T18:07:07.785Z",
+      "category": "后端"
+    },
+    {
+      "name": "后端文件 - services/database.js",
+      "passed": true,
+      "details": "1683行代码",
+      "timestamp": "2026-01-05T18:07:07.787Z",
+      "category": "后端"
+    },
+    {
+      "name": "后端文件 - middleware/errorHandler.js",
+      "passed": true,
+      "details": "308行代码",
+      "timestamp": "2026-01-05T18:07:07.790Z",
+      "category": "后端"
+    },
+    {
+      "name": "数据库文件",
+      "passed": true,
+      "details": "84.0KB",
+      "timestamp": "2026-01-05T18:07:07.794Z",
+      "category": "数据库"
+    },
+    {
+      "name": "数据库表结构",
+      "passed": true,
+      "details": "包含核心表",
+      "timestamp": "2026-01-05T18:07:07.797Z",
+      "category": "数据库"
+    },
+    {
+      "name": "AI路由",
+      "passed": true,
+      "details": "AI路由完整",
+      "timestamp": "2026-01-05T18:07:07.801Z",
+      "category": "AI"
+    },
+    {
+      "name": "AI配置",
+      "passed": true,
+      "details": "API配置完整",
+      "timestamp": "2026-01-05T18:07:07.804Z",
+      "category": "AI"
+    },
+    {
+      "name": "启动脚本 - 启动6.8.bat",
+      "passed": true,
+      "details": "脚本存在",
+      "timestamp": "2026-01-05T18:07:07.806Z",
+      "category": "启动脚本"
+    },
+    {
+      "name": "启动脚本 - README.md",
+      "passed": true,
+      "details": "脚本存在",
+      "timestamp": "2026-01-05T18:07:07.806Z",
+      "category": "启动脚本"
+    }
+  ],
+  "categories": {
+    "前端": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "rate": "100.0"
+    },
+    "其他": {
+      "total": 2,
+      "passed": 0,
+      "failed": 2,
+      "rate": "0.0"
+    },
+    "后端": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "rate": "100.0"
+    },
+    "数据库": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "rate": "100.0"
+    },
+    "AI": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "rate": "100.0"
+    },
+    "启动脚本": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "rate": "100.0"
+    }
+  },
+  "timestamp": "2026-01-05T18:07:07.807Z",
+  "recommendations": [
+    "修复问题后重新运行质量检查"
+  ]
+}
